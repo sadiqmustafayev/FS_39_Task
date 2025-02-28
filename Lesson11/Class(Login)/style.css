@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", serif;;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  height: 100vh;
+  background-image: url("./images/image.png");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+form {
+  width: 40%;
+  height: 420px;
+  padding: 50px 30px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  backdrop-filter: blur(10px);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 40px;
+  border: 1px solid #fff;
+  gap: 10px;
+
+}
+
+.input-container input{
+  flex-grow: 1;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+
+.input-container input::placeholder{
+  color: #fff;
+}
+
+.input-container i{
+  width: 30px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.remember {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.remember label input{
+  width: 20px;
+  height: 20px;
+}
+
+form button {
+  text-align: center;
+  border-radius: 40px;
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 20px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.form-footer {
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+div:hover{
+  box-shadow: rgba(0, 0, 0) 0px 0px 10px;
+
+}
+
+figure{
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0) 0px 0px 10px;
+} 
+
+img{
+  width: 100%;
+  vertical-align: middle;
+}
