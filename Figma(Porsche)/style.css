@@ -1,0 +1,224 @@
+*{
+  bottom: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  margin-top: 46px;
+  margin-left: 85px;
+}
+
+.logo img{
+  width: 239px;
+  height: 60px;
+  margin-left: 15px;
+  margin-right: 427px;
+  margin-top: -25px;
+}
+
+.nav-social-media {
+  margin-top: 15px;
+  
+}
+
+.slug {
+  margin-top: 71px;
+  margin-left: 140px;
+}
+
+.slug h1{ 
+  font-weight: bold;
+}
+
+.slug h2{
+  color: #FFD000; 
+  font-weight: bold;
+}
+
+.slug button{
+  text-align: center;
+  width: 110px;
+  height: 50px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #2C2C2C;
+}
+
+.yellow-stripe {
+  position: absolute;
+  margin-left: 800px;
+  width: 700px; 
+  height: 20px;
+  background-color: #FFD000;
+  transform: rotate(-30deg); 
+  top: 100px; 
+  left: 50px; 
+}
+
+.porshe-image img{
+  margin-top: 30px;
+  margin-left: 70px;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 90%;
+  height: 600px;
+}
+
+.shop {
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-right:110px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.shop img {
+  width: 680px;
+  height: 110px;
+  margin-left: 400px;
+}
+
+
+.model {
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-right: 22px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.model h2 {
+  color: #333;
+  border-bottom: 2px solid #FFD000;
+  padding-bottom: 5px;
+}
+
+.model h3 {
+  margin-top: 0;
+}
+
+.model p {
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.specs {
+  margin-left: 330px;
+  margin-top: 140px;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:nth-child(1){
+  border-radius: 10px;
+  background-color: #2C2C2C;
+}
+
+.btn:nth-child(2){
+  border: 1px solid;
+  border-radius: 10px;
+  color: black;
+  background-color: #fff;
+}
+
+.specs img{
+  margin-left: 50px;
+  width: 200px;
+  height: 100px;
+  margin-left: 400px;
+}
+
+.contact {
+  position: relative;
+  width: 100%; 
+  max-width: 1600px;
+  margin: 0 auto; 
+}
+
+.contact p {
+  color: #FFD000;
+
+}
+
+.contact img {
+  width: 100%;  
+  height: 80%; 
+  filter: brightness(0.5); 
+  display: block; 
+}
+
+.text-overlay {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  color: white; 
+}
+
+.contact-btn button {
+  margin: 5px; 
+  padding: 10px 20px; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+
+.contact-btn button:nth-child(1) {
+  background-color: #fff;
+  color: black;
+}
+
+.contact-btn button:nth-child(2) {
+  background-color: #2C2C2C;
+  color: fff;
+}
+
+.contact-btn button:hover {
+  background-color: #0056b3; 
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
+  align-items: flex-start;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+}
