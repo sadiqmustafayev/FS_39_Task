@@ -1,10 +1,10 @@
 interface IButton {
   variant?: "contained" | "outlined" | "text";
   color?: "blue" | "linen" | "white";
+  size?: "small" | "medium" | "large";
   className?: string;
   children: React.ReactNode;
 }
-
 
 const Button = ({
   color = "blue",
@@ -13,7 +13,7 @@ const Button = ({
   children,
 }: IButton) => {
   const baseStyles =
-    "py-4 px-12 rounded-md cursor-pointer transition duration-300 hover:opacity-85";
+    "w-max py-4 px-12 rounded-md cursor-pointer transition duration-300 hover:opacity-85";
 
   const variantStyles = {
     contained: "",
@@ -35,4 +35,4 @@ const Button = ({
     </button>
   );
 };
-export default Button
+export default Button;
