@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Sadiq Mustafayev",
+    "email": "sadiq@example.com",
+    "gender": "Male",
+    "status": "Active"
+  },
+  {
+    "id": "2",
+    "name": "Afaq Heydərova",
+    "email": "afaq@example.com",
+    "gender": "Female",
+    "status": "Inactive"
+  },
+  {
+    "name": "Nazir Mammadov",
+    "email": "nazir@example.com",
+    "gender": "Male",
+    "status": "Active",
+    "id": 3
+  },
+  {
+    "name": "Lale Izmailova",
+    "email": "lala@example.com",
+    "gender": "Female",
+    "status": "Active",
+    "id": 4
+  }
+]
