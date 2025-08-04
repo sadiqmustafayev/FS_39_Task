@@ -14,17 +14,10 @@
     "status": "Inactive"
   },
   {
-    "name": "Nazir Mammadov",
-    "email": "nazir@example.com",
-    "gender": "Male",
-    "status": "Active",
-    "id": 3
-  },
-  {
     "name": "Lale Izmailova",
     "email": "lala@example.com",
     "gender": "Female",
     "status": "Active",
-    "id": 4
+    "id": "2d6c51d1-c187-49d2-9e4b-345c97d18a83"
   }
 ]
